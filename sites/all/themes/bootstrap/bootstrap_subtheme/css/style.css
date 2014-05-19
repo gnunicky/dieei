@@ -3,8 +3,13 @@
  * remove this comment and start adding your styles to this file.
  */
 
-.carosello{
+.carousel-caption{
+background-color: rgba(0, 0, 0, 0.4);
+}
+
+.carousel{
   position:relative;
+  margin-bottom:20px;
 }
 
 .toplogo {
@@ -44,7 +49,7 @@
   right: 0;
 }
 .yamm .yamm-content {
-  padding: 20px 30px;
+  padding: 10px 20px;
 }
 .yamm .dropdown.yamm-fw .dropdown-menu {
   left: 0;
@@ -64,16 +69,17 @@
 
 @media (min-width: 768px){
     .navbar-nav{
-        float:none;
+	font-size: 20px;
+	float:none;
         margin: 0 auto;
         display: table;
         table-layout: fixed;
-	font-size: 20px;
     }
 }
 
 .navbar{
 	margin-bottom:0px;
+	max-height: 50px;
 }
 
 .navbar-nav2{
