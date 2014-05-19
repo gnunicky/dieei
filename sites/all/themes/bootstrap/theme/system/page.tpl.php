@@ -73,6 +73,21 @@
  * @ingroup themeable
  */
 ?>
+
+<?php if ($page['topmenu']): ?>
+<div class="topmenu">
+	<?php print render($page['topmenu']); ?>
+</div>
+</div> <!-- /.topmenu -->
+<?php endif; ?>
+
+<?php if ($page['toplogo']): ?>
+<div class="toplogo">
+        <?php print render($page['toplogo']); ?>
+</div>
+</div> <!-- /.toplogo -->
+<?php endif; ?>
+
 <header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
   <div class="container">
     <div class="navbar-header">
@@ -112,6 +127,14 @@
     <?php endif; ?>
   </div>
 </header>
+
+<?php if ($page['carousel']): ?>
+<div class="carousel">
+        <?php print render($page['carousel']); ?>
+</div>
+</div> <!-- /.carousel -->
+<?php endif; ?>
+
 
 <div class="main-container container">
 
