@@ -3,6 +3,16 @@
  * remove this comment and start adding your styles to this file.
  */
 
+.bottom_opacity{
+	opacity:0.5;
+	filter:alpha(opacity=40);
+}
+
+.bottom_opacity:hover bottom_opacity{
+	opacity:1.0;
+	filter:alpha(opacity=100);
+}
+
 .bottom {
     background-color: #474747;
 }
@@ -14,7 +24,12 @@
     color: #999;
 }
 .bottom .container p {
-    color: #666;
+    color: #999;
+	/* color: #666; */
+}
+
+.bottom .container ul {
+	color: #999;
 }
 
 .carousel-caption{
@@ -104,3 +119,6 @@ background-color: rgba(0, 0, 0, 0.4);
   color: #fff;
 }
 
+.region-header {
+	margin-bottom:20px;
+}
