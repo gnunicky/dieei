@@ -4,11 +4,11 @@
  */
 
 .bottom_opacity{
-	opacity:0.5;
-	filter:alpha(opacity=40);
+	opacity:0.6;
+	filter:alpha(opacity=60);
 }
 
-.bottom_opacity:hover bottom_opacity{
+.bottom_opacity img:hover bottom_opacity{
 	opacity:1.0;
 	filter:alpha(opacity=100);
 }
@@ -30,6 +30,15 @@
 
 .bottom .container ul {
 	color: #999;
+}
+
+.bottom .container a:hover {
+	text-decoration:underline;
+	color:white;
+}
+
+.bottom .container a:link{
+	color:inherit;
 }
 
 .carousel-caption{
