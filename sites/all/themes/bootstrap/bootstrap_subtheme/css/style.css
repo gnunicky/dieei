@@ -3,11 +3,47 @@
  * remove this comment and start adding your styles to this file.
  */
 
+div.teacher{
+	text-align: justify;
+	font-style: italic;
+}
+
+hr.title{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.thumbnail{
+	text-align:center;
+}
+
+.sidebar-left {
+  float: left; /* LTR */
+  width: 200px;
+  margin-left: 0; /* LTR */
+ /* LTR */ /* Negative value of .region-sidebar-first's width + left margin. */
+  padding: 0; /* DO NOT CHANGE. Add padding or margin to .region-sidebar-first .section. */
+}
+
+.sidebar-left .section {
+  margin: 0 20px 0 0; /* LTR */
+  padding: 0;
+}
+
 .breadcrumb{
 	margin-top:20px;
 }
 
 .well{
+	margin-top:20px;
+}
+
+.well2{
+	margin-top:20px;
+	background-color:white;
+}
+
+.region-sidebar-second{
 	margin-top:20px;
 }
 
@@ -142,4 +178,5 @@ background-color: rgba(0, 0, 0, 0.4);
 
 .region-header {
 	margin-bottom:20px;
+	display:inline;
 }
