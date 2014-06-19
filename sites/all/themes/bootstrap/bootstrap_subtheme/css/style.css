@@ -3,6 +3,14 @@
  * remove this comment and start adding your styles to this file.
  */
 
+.region-sidebar-second .div{
+	margin-top:140px;
+}
+
+div.news{
+	text-align: left;
+}
+
 div.teacher{
 	text-align: justify;
 	font-style: italic;
