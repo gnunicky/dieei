@@ -1,0 +1,99 @@
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+
+.topmenu {
+	min-height: 10px;
+        background: #333;
+        background: -moz-linear-gradient(top, #333 0%, #2B2B2B 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #333), color-stop(100%, #2B2B2B));
+        background: -webkit-linear-gradient(top, #333 0%, #2B2B2B 100%);
+        background: -o-linear-gradient(top, #333 0%, #2B2B2B 100%);
+        background: -ms-linear-gradient(top, #333 0%, #2B2B2B 100%);
+        background: linear-gradient(top, #333 0%, #2B2B2B 100%);
+}
+
+.toplogo {
+  position: relative;
+  padding: 40px 0;
+  margin-top: 40px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+  background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(45deg, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#1e5799), color-stop(50%,#2989d8), color-stop(51%,#207cca), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(45deg, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(45deg, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(45deg, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* IE10+ */
+background: linear-gradient(45deg, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.carousel-caption{
+background-color: rgba(0, 0, 0, 0.4);
+}
+
+.carousel{
+  position:relative;
+  margin-bottom:20px;
+}
+
+@media (min-width: 768px){
+    .navbar-nav{
+	font-size: 20px;
+	float:none;
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+    }
+}
+
+.navbar{
+	margin-bottom:0px;
+	max-height: 50px;
+}
+
+.navbar-nav2{
+	font-size: 12px;
+}
+
+.white, .white a {
+  color: #fff;
+}
+
+.sidebar-left {
+  float: left; /* LTR */
+  width: 200px;
+  margin-left: 0; /* LTR */
+ /* LTR */ /* Negative value of .region-sidebar-first's width + left margin. */
+  padding: 0; /* DO NOT CHANGE. Add padding or margin to .region-sidebar-first .section. */
+}
+
+.sidebar-left .section {
+  margin: 0 20px 0 0; /* LTR */
+  padding: 0;
+}
+
+.breadcrumb{
+	margin-top:20px;
+}
+
+.well{
+	margin-top:20px;
+}
+
+.well2{
+	margin-top:20px;
+	background-color:white;
+}
+
+.region-sidebar-second{
+	margin-top:20px;
+}
+
+.page-header{
+	margin-top:20px;
+}
+
